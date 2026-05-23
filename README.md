@@ -1,8 +1,14 @@
+\## Live Demo
+
+Try the app here: https://your-streamlit-url.streamlit.app
+
+
+
 \# Hospital Readmission Predictor
 
 
 
-A machine learning project to predict 30-day hospital readmissions 
+A machine learning project to predict 30-day hospital readmissions
 
 using the UCI Diabetes 130-US Hospitals dataset (101,766 patients).
 
@@ -10,11 +16,11 @@ using the UCI Diabetes 130-US Hospitals dataset (101,766 patients).
 
 \## Problem framing
 
-Each year, roughly 20% of Medicare patients in the US are readmitted 
+Each year, roughly 20% of Medicare patients in the US are readmitted
 
-to hospital within 30 days of discharge — many of them preventably. 
+to hospital within 30 days of discharge — many of them preventably.
 
-This project builds a binary classifier to flag high-risk patients 
+This project builds a binary classifier to flag high-risk patients
 
 before discharge.
 
@@ -38,7 +44,7 @@ before discharge.
 
 \## Evaluation metric
 
-ROC-AUC and Recall — not accuracy, due to class imbalance (11.2% 
+ROC-AUC and Recall — not accuracy, due to class imbalance (11.2%
 
 positive rate).
 
