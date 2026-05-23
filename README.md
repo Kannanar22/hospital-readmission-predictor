@@ -1,44 +1,44 @@
-# \# Hospital Readmission Predictor
+\# Hospital Readmission Predictor
 
-# 
 
-# A machine learning project to predict 30-day hospital readmissions 
 
-# using the UCI Diabetes 130-US Hospitals dataset (101,766 patients).
+A machine learning project to predict 30-day hospital readmissions 
 
-# 
+using the UCI Diabetes 130-US Hospitals dataset (101,766 patients).
 
-# \## Problem framing
 
-# Each year, roughly 20% of Medicare patients in the US are readmitted 
 
-# to hospital within 30 days of discharge — many of them preventably. 
+\## Problem framing
 
-# This project builds a binary classifier to flag high-risk patients 
+Each year, roughly 20% of Medicare patients in the US are readmitted 
 
-# before discharge.
+to hospital within 30 days of discharge — many of them preventably. 
 
-# 
+This project builds a binary classifier to flag high-risk patients 
 
-# \## Tech stack
+before discharge.
 
-# \- Python, pandas, scikit-learn, XGBoost, SHAP, Streamlit
 
-# 
 
-# \## Project structure
+\## Tech stack
 
-# \- notebooks/ — Jupyter notebooks for each phase
+\- Python, pandas, scikit-learn, XGBoost, SHAP, Streamlit
 
-# \- src/ — helper functions
 
-# \- data/ — raw and cleaned datasets (not tracked in git)
 
-# 
+\## Project structure
 
-# \## Evaluation metric
+\- notebooks/ — Jupyter notebooks for each phase
 
-# ROC-AUC and Recall — not accuracy, due to class imbalance (11.2% 
+\- src/ — helper functions
 
-# positive rate).Hospital Readmission Predictor
+\- data/ — raw and cleaned datasets (not tracked in git)
+
+
+
+\## Evaluation metric
+
+ROC-AUC and Recall — not accuracy, due to class imbalance (11.2% 
+
+positive rate).
 
